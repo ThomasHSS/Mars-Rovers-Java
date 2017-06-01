@@ -1,3 +1,6 @@
+/*Written by Veera - https://veerasundar.com/blog/2010/06/mars-rover-in-java/
+ Modified by Thomás Henrique - https://github.com/ThomasHSS/
+ */
 package marsrovers;
 
     public class Rover {
@@ -65,13 +68,5 @@ package marsrovers;
     	private void vireR() {
     		pCardeal = (pCardeal) > O ? N : pCardeal + 1;
     	}
-    	public static void main(String args[]) {
-    		Rover rover = new Rover();
-    		rover.setPosicao(1, 2, N);
-    		rover.processo("LMLMLMLMM");
-    		rover.printPosicao(); 
-    		rover.setPosicao(3, 3, L);
-    		rover.processo("MMRMMRMRRM");
-    		rover.printPosicao(); 
-    	}
+    	
     }
